@@ -11,8 +11,13 @@
    parent GSAP effect via data-split / data-cell. Honors prefers-reduced-motion.
 ---------------------------------------------------------------------------- */
 
-// The APK is served straight from /public. Replace the file there on each release.
-const APK_FILE = "/hue-latest.apk";
+// The APK is served as a GitHub Release asset (kept out of git — too large).
+// `releases/latest/download/...` always resolves to the newest published
+// release, so a new version just needs a fresh release with the same asset
+// name. GitHub serves it with Content-Disposition: attachment, so the button
+// triggers a direct file download (no clone, no extract).
+const APK_FILE =
+  "https://github.com/maxxi02/hue-web/releases/latest/download/hue-latest.apk";
 const APK_VERSION = "v1.0.0";
 const APK_SIZE = "~95 MB";
 const ANDROID_MIN = "Android 8.0+";

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="hue-icon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FE9A00" />
+      <stop offset="55%" stop-color="#BB4D00" />
+      <stop offset="100%" stop-color="#973C00" />
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#hue-icon)" />
+  <g fill="#FFFBEB">
+    <path d="M492 206 L492 817 L271 760 L271 260 Z" />
+    <path d="M521 206 L618 230 L618 468 L683 462 L683 245 L752 262 L752 763 L683 775 L683 555 L618 558 L618 793 L521 817 Z" />
+  </g>
+</svg>

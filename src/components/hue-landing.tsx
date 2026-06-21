@@ -358,7 +358,7 @@ export default function HueLanding() {
             Never freeze again.
           </h2>
           <a
-            href="/hue-latest.apk"
+            href="https://github.com/maxxi02/hue-web/releases/latest/download/hue-latest.apk"
             download
             data-magnetic
             className="hue-btn hue-btn--xl"
