@@ -18,8 +18,8 @@
 // triggers a direct file download (no clone, no extract).
 const APK_FILE =
   "https://github.com/maxxi02/hue-web/releases/latest/download/hue-latest.apk";
-const APK_VERSION = "v1.0.0";
-const APK_SIZE = "~95 MB";
+const APK_VERSION = "v1.1.0";
+const APK_SIZE = "~100 MB";
 const ANDROID_MIN = "Android 8.0+";
 
 type Step = { n: string; title: string; desc: string };
